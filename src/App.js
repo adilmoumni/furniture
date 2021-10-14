@@ -4,7 +4,7 @@ import {
   InstantSearch,
   Hits,
   SearchBox,
-  RefinementList, connectRefinementList,
+  RefinementList,
   Highlight,
   connectHitsPerPage,
 } from 'react-instantsearch-dom';
