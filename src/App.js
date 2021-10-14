@@ -88,7 +88,7 @@ class App extends Component {
 function Hit(props) {
   return (
     <article >
-      <img src={props.hit.imageUrl} height="100%" width="100%" />
+      <img alt="" src={props.hit.imageUrl} height="100%" width="100%" />
 
       <h4>
         <Highlight attribute="name" hit={props.hit} />
